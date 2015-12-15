@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
   .navbar-default .navbar-nav>.active>a{border-radius:3px}
 
-  .navbar-default.navbar-shrink{background-color:#222;padding:10px 0}
+  .navbar-default.navbar-shrink{background-color:#222;padding:5px 0}
 
   .navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}
 }

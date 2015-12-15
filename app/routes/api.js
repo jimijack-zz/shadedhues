@@ -7,4 +7,6 @@ router.get('/prints', function(req, res, next) {
   res.json({msg: 'respond with a resource'});
 });
 
+app.route('/mail').get(mail.createmail);
+
 module.exports = router;

@@ -7,7 +7,7 @@
 
   PrintsController.$inject = ["$state", "$log", "$http"];
 
-  function PrintsController($state, userDataService, $log, $http) {
+  function PrintsController($state, $log, $http) {
     var vm = this;
 
     vm.prints = [];
@@ -31,6 +31,10 @@
       }, function(errRes) {
         console.error('Error gathering prints, idiot!', errRes);
       });
+    };
+
+    function postPrint() {
+
     };
 
   };

@@ -9,11 +9,9 @@
 
   function AppRoutes($stateProvider, $urlRouterProvider) {
     $stateProvider
-      .state("indexPage", {
+      .state("landingPage", {
         url: "/",
-        templateUrl: "/index.html",
-        controller: "PrintController",
-        controllerAs: "vm"
+        templateUrl: "/templates/landing.html"
       })
       .state("printPage", {
         url: "/prints",

@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 .navbar-default{background-color:#222;border-color:transparent}
 
-.navbar-default .navbar-brand{color:#224e78;text-shadow: 1px 1px 1px white;font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif}
+.navbar-default .navbar-brand{color:#00a9c6;font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif}
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{color:#ffffff}
 
@@ -250,13 +250,13 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
 
-.portfolio-modal .modal-content{border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;border:0;min-height:100%;padding:100px 0;text-align:center}
+.portfolio-modal .modal-content{border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;border:0;min-height:100%;padding:0px 0;text-align:center}
 
 .portfolio-modal .modal-content h2{margin-bottom:15px;font-size:3em}
 
 .portfolio-modal .modal-content p{margin-bottom:30px}
 
-.portfolio-modal .modal-content p.item-intro{margin:20px 0 30px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px}
+.portfolio-modal .modal-content p.item-intro{margin:10px 0 30px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px}
 
 .portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;margin-top:0}
 

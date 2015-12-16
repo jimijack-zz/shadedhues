@@ -1,8 +1,12 @@
 var mongoose = require('mongoose');
-require('dotenv').load();
-// connect to db
-mongoose.connect(process.env.DATABASE_URL);
 
+var env = require('./environment');
+
+var dbUri = env.MONGOLAB_URI ||
+            'mongodb://localhost/' + env.SAFE_TITLE;
+
+// connect to db
+mongoose.connect(dbUri);
 
 // export the connection
 module.exports = mongoose;

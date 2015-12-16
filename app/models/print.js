@@ -1,12 +1,13 @@
 var mongoose = require('mongoose');
 
-var printSchema = new mongoose.Schema({
+var printSchema = mongoose.Schema({
   title: String,
   category: String,
   size: String,
-  is_framed: boolean
+  price: String,
   imageURL: String
 });
 
-module.exports =  mongoose.model('Print', printSchema);
+var Print = mongoose.model('Print', printSchema);
 
+module.exports = Print;

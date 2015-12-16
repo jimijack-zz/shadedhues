@@ -7,14 +7,9 @@ var mongoose = require('mongoose');
 // require controllers
 var printsController = require('../controllers/prints_controller');
 
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-
 /* GET /api/prints listing. */
-router.get('/prints', function(req, res, next) {
-  res.json({msg: 'respond with a resource'});
-});
+router.get('/prints', printsController.allPrints)
+router.get('/prints/:id', printsController.printShow)
 
 // contact form?
 //router.get('/mail').get(mail.createmail);

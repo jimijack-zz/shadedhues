@@ -228,3 +228,15 @@ var prints = [
     imageURL: "https://i.imgur.com/DGzDCvh.jpg"
   },
 ];
+
+Print.remove({}, function(err) {
+  if(err) console.log(err);
+  Print.create(prints, function(err, prints) {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("Database seeded with " + prints.length + " prints.");
+      mongoose.disconnect();
+    }
+  });
+});

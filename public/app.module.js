@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('shuesApp', []);
+    .module('shuesApp', ["ui.router"]);
 
 
 

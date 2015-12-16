@@ -2,8 +2,9 @@ var mongoose = require('mongoose');
 
 var env = require('./environment');
 
-var dbUri = env.MONGOLAB_URI ||
-            'mongodb://localhost/' + env.SAFE_TITLE;
+var dbUri = 'mongodb://localhost/shadedhues_prints';
+//env.MONGOLAB_URI ||
+
 
 // connect to db
 mongoose.connect(dbUri);

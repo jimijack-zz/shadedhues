@@ -28,6 +28,7 @@ var printShow = function(req, res, next) {
 
 // Export the function/s as JSON
 module.exports = {
-  printShow:   printShow
+  printShow:   printShow,
+  allPrints: index
 };
 

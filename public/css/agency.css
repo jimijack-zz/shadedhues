@@ -99,7 +99,7 @@ section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
 section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none;font-weight:400;margin-bottom:75px}
 
 @media (min-width:768px) {
-  section{padding:150px 0}
+  section{padding:110px 0}
 }
 
 .service-heading{margin:15px 0;text-transform:none}

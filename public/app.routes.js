@@ -13,9 +13,17 @@
         url: "/",
         templateUrl: "/templates/landing.html"
       })
+      .state("printCategories", {
+        url: "/categories",
+        templateUrl:  "/templates/categories.html",
+        controller: "PrintsController",
+        controllerAs: "vm"
+      })
       .state("printPage", {
-        url: "/prints",
-        templateUrl:  "/templates/prints.html"
+        url: "/prints/:category",
+        templateUrl: "/templates/prints.html",
+        controller: "PrintsController",
+        controllerAs: "vm"
       });
 
     $urlRouterProvider.otherwise("/");

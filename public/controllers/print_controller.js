@@ -5,9 +5,9 @@
       .module("shuesApp")
       .controller("PrintsController", PrintsController);
 
-  PrintsController.$inject = ["$state", "$log", "$http"];
+  PrintsController.$inject = ["$state", "$log", "$http", "$stateParams"];
 
-  function PrintsController($state, $log, $http) {
+  function PrintsController($state, $log, $http, $stateParams) {
     var vm = this;
 
     vm.prints = [];
@@ -20,8 +20,10 @@
       imageURL: ""
     };
 
-    vm.getPrints     = getPrints;
-    vm.postPrint      = postPrint;
+    vm.params = $stateParams;
+
+    vm.getPrints = getPrints;
+    vm.postPrint = postPrint;
 
     vm.getPrints();
 

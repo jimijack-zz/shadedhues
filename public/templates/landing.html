@@ -14,7 +14,7 @@
                         <h2 style="padding: 15px; border: 2px solid #00a9c6">PRINTS</h2>
                         <p>Choose from a variety of prints signed by the artist.
                         <br>
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">View More</a></p>
+                        <a ui-sref="printCategories" class="portfolio-link">View More</a></p>
                     </figcaption>
             </figure>
             <figure class="effect-oscar  wowload fadeIn animated col-md-6" id="portraitsBefore" style="visibility: visible; animation-name: fadeIn;">
@@ -255,7 +255,7 @@
                 <h3 class="section-subheading text-muted">Have a question or comment?  Reach out to James directly below.</h3>
             </div>
         </div>
-        <div class="row" data-ng-controller="ContactFormController as vm">
+        <div class="row">
             <div class="col-lg-12">
                 <form name="sentMessage" data-ng-submit="vm.sendMail()" id="contactForm" novalidate>
                     <div class="row">

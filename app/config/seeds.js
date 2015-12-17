@@ -14,7 +14,7 @@ var prints = [
     title: "Ingrid",
     category: "people",
     size: "16x20",
-    price: "$20",
+    price: "$50",
     imageURL: "https://i.imgur.com/4v184lp.jpg"
   },
   { // 2
@@ -104,7 +104,7 @@ var prints = [
   { // 14
     title: "Kat",
     category: "people",
-    size: "16x20",
+    size: "22x24",
     price: "$50",
     imageURL: "https://i.imgur.com/fAwHwWe.jpg"
   },
@@ -125,14 +125,14 @@ var prints = [
   { // 17
     title: "Baby Angel 1",
     category: "people",
-    size: "16x20",
+    size: "12x16",
     price: "$35",
     imageURL: "https://i.imgur.com/DDLH2E6.jpg"
   },
   { // 18
     title: "Baby Angel 2",
     category: "people",
-    size: "16x20",
+    size: "12x16",
     price: "$35",
     imageURL: "https://i.imgur.com/SLeGaYZ.jpg"
   },
@@ -167,7 +167,7 @@ var prints = [
   { // 23
     title: "Kurt",
     category: "people",
-    size: "16x20",
+    size: "22x30",
     price: "$50",
     imageURL: "https://i.imgur.com/DE0blaL.jpg"
   },

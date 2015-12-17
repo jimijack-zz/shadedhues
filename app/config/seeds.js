@@ -29,7 +29,7 @@ var prints = [
     category: "people",
     size: "16x20",
     price: "$30",
-    imageUrl: "https://i.imgur.com/xO8DLbJ.jpg"
+    imageURL: "https://i.imgur.com/bL1EM5h.jpg"
   },
   { // 4
     title: "Siray",

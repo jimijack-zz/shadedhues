@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 .navbar-default{background-color:#222;border-color:transparent}
 
-.navbar-default .navbar-brand{color:#00a9c6;font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif}
+.navbar-default .navbar-brand{color:#00a9c6;font-family: Josefin Sans,"Helvetica Neue",Helvetica,Arial,sans-serif}
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{color:#ffffff}
 
@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 .navbar-default .nav li a{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:400;letter-spacing:1px;color:#fff}
 
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#224e78;outline:0}
+.navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#00a9c6;outline:0}
 
 .navbar-default .navbar-nav>.active>a{border:2px solid #224e78; background-color: transparent; color: #fff}
 
@@ -94,9 +94,9 @@ header .intro-text .intro-heading{font-family:Montserrat,"Helvetica Neue",Helvet
 
 section{padding:100px 0}
 
-section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
+section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:0px}
 
-section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none;font-weight:400;margin-bottom:75px}
+section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none;font-weight:400;margin-bottom:25px; margin-top: 25px;}
 
 @media (min-width:768px) {
   section{padding:110px 0}
@@ -118,7 +118,7 @@ section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helveti
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}
 
-#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}
+#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:10px}
 
 #portfolio .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}
 
@@ -158,11 +158,11 @@ section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helveti
 
 .timeline>li:last-child{margin-bottom:0}
 
-.timeline .timeline-heading h4{margin-top:0;color:inherit}
+.timeline .timeline-heading h4{margin-top:0;color:inherit;font-family:Poiret One;}
 
-.timeline .timeline-heading h4.subheading{text-transform:none}
+.timeline .timeline-heading h4.subheading{text-transform:none;font-family:Josefin Sans}
 
-.timeline .timeline-body>p,.timeline .timeline-body>ul{margin-bottom:0}
+.timeline .timeline-body>p,.timeline .timeline-body>ul{margin-bottom:0;font-size:20px;}
 
 @media (min-width:768px) {
   .timeline:before{left:50%}
@@ -193,13 +193,13 @@ section h3.section-subheading{font-size:26px;font-family:"Josefin Sans","Helveti
 @media (min-width:1200px) {
   .timeline>li{min-height:170px}
 
-  .timeline>li .timeline-panel{padding:0 20px 20px 100px}
+  .timeline>li .timeline-panel{padding:0 20px 20px 20px}
 
-  .timeline>li .timeline-image{width:170px;height:170px;margin-left:-85px}
+  .timeline>li .timeline-image{width:250px;height:250px;margin-left:-125px}
 
   .timeline>li .timeline-image h4{margin-top:40px}
 
-  .timeline>li.timeline-inverted>.timeline-panel{padding:0 100px 20px 20px}
+  .timeline>li.timeline-inverted>.timeline-panel{padding:0 20px 20px 20px}
 }
 
 .team-member{text-align:center;margin-bottom:50px}

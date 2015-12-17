@@ -641,7 +641,7 @@ figure.effect-oscar h2 {
   -webkit-transform: translate3d(0,100%,0);
   transform: translate3d(0,100%,0);
   font-style: bold;
-  color: black;
+  color: white;
 }
 
 figure.effect-oscar figcaption::before,

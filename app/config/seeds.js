@@ -195,7 +195,7 @@ var prints = [
   { // 27
     title: "David & Goliath",
     category: "pets",
-    size: "16x20",
+    size: "12x16",
     price: "$25",
     imageURL: "https://i.imgur.com/Jye3qdr.jpg"
   },

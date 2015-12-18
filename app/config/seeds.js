@@ -162,14 +162,14 @@ var prints = [
     category: "people",
     size: "16x20",
     price: "$50",
-    imageURL: "https://i.imgur.com/DEzjtwJ.jpg"
+    imageURL: "https://i.imgur.com/xiFheug.jpg"
   },
   { // 23
     title: "Kurt",
     category: "people",
     size: "22x30",
     price: "$50",
-    imageURL: "https://i.imgur.com/DE0blaL.jpg"
+    imageURL: "https://i.imgur.com/CbFZP5x.jpg"
   },
   { // 24
     title: "Fiosracht",

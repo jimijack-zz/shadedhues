@@ -5,5 +5,7 @@ var localEnvVars = {
   SAFE_TITLE: 'shadedhues_prints'
 };
 
+require('dotenv').load();
+
 // Merge all environmental variables into one object.
 module.exports = _.extend(process.env, localEnvVars);

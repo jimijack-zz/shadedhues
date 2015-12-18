@@ -1,6 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/mGOsZlF.png" width="150px"/>
+<img src="https://i.imgur.com/mGOsZlF.png" width="300px"/>
 </p>
+
+___
 
 ShadedHues is my artist profile name.  Its about grabbing hold of what elements of color you can, reproduce them in shades of black and white, and leaving the viewer the opportunity to find their own colorful interpretation.
 

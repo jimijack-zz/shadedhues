@@ -12,7 +12,7 @@ router.get('/prints', printsController.allPrints)
 router.get('/prints/:id', printsController.printShow)
 
 // contact form?
-router.get('/mail').get(mail.createmail);
+//router.get('/mail').get(mail.createmail);
 
 module.exports = router;
 

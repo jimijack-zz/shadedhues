@@ -1,7 +1,7 @@
 body {  color:#666; font:300 15px/15px Josefin Sans,Arial,Helvetica;background-color:#fff;-webkit-font-smoothing:antialiased;}
 
 #navbarMenu {
-  font-family: brandon-grotesque;
+  font-family: "brandon-grotesque";
 }
 
 a{color:#00a9c6; text-decoration:none;}
